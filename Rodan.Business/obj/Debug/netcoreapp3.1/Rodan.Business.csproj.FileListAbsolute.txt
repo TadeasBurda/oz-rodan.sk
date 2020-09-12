@@ -1,0 +1,12 @@
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\bin\Debug\netcoreapp3.1\Rodan.Business.deps.json
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\bin\Debug\netcoreapp3.1\Rodan.Business.dll
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\bin\Debug\netcoreapp3.1\Rodan.Business.pdb
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\bin\Debug\netcoreapp3.1\Rodan.Data.dll
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\bin\Debug\netcoreapp3.1\Rodan.Data.pdb
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.csprojAssemblyReference.cache
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.AssemblyInfoInputs.cache
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.AssemblyInfo.cs
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.csproj.CoreCompileInputs.cache
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.csproj.CopyComplete
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.dll
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Business\obj\Debug\netcoreapp3.1\Rodan.Business.pdb

@@ -1,0 +1,9 @@
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\bin\Debug\netcoreapp3.1\Rodan.Data.deps.json
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\bin\Debug\netcoreapp3.1\Rodan.Data.dll
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\bin\Debug\netcoreapp3.1\Rodan.Data.pdb
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.csprojAssemblyReference.cache
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.AssemblyInfoInputs.cache
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.AssemblyInfo.cs
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.csproj.CoreCompileInputs.cache
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.dll
+C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.pdb

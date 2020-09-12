@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rodan.Business/1.0.0": {
+        "dependencies": {
+          "Rodan.Data": "1.0.0"
+        },
+        "runtime": {
+          "Rodan.Business.dll": {}
+        }
+      },
+      "Rodan.Data/1.0.0": {
+        "runtime": {
+          "Rodan.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rodan.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rodan.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

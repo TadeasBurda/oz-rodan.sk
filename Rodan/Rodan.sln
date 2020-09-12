@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rodan", "Rodan.csproj", "{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rodan.Business", "..\Rodan.Business\Rodan.Business.csproj", "{973E4E59-EAED-45AD-A067-0623E71A4C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rodan.Data", "..\Rodan.Data\Rodan.Data.csproj", "{6CDFA056-110E-4CC2-B4DE-083B435B7485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973E4E59-EAED-45AD-A067-0623E71A4C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973E4E59-EAED-45AD-A067-0623E71A4C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973E4E59-EAED-45AD-A067-0623E71A4C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973E4E59-EAED-45AD-A067-0623E71A4C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDFA056-110E-4CC2-B4DE-083B435B7485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDFA056-110E-4CC2-B4DE-083B435B7485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDFA056-110E-4CC2-B4DE-083B435B7485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDFA056-110E-4CC2-B4DE-083B435B7485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {632F0823-A144-4309-AD14-DD807951DD61}
+	EndGlobalSection
+EndGlobal
