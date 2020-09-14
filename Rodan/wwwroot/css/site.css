@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .breadcrumb {
         font-size: 0.75rem;
     }
@@ -53,6 +53,7 @@ body {
 
 footer {
     padding: 0.5rem;
+    padding-bottom: 1.5rem;
     background-color: #ffffff;
     color: #4b4c4d;
 }

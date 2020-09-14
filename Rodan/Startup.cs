@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Rodan.Business;
 using Rodan.Business.Interfaces;
+using Rodan.Business.Managers;
 using Rodan.Business.Services;
 using Rodan.Data;
 
@@ -43,6 +44,7 @@ namespace Rodan
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IEmailSender, EmailSender>();
             services.AddScoped<INotificationsService, NotificationsService>();
+            services.AddScoped<IFileManager, FileManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

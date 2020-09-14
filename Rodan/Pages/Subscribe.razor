@@ -32,7 +32,9 @@
 
         <EditForm Model="@model" OnValidSubmit="@OnValidSubmitAsync">
             <DataAnnotationsValidator />
-            <ValidationSummary />
+            <div class="text-danger">
+                <ValidationSummary />
+            </div>
 
             <div class="form-group">
                 <InputText class="form-control" @bind-Value="model.Email" placeholder="Vlož tvoj email"/>
