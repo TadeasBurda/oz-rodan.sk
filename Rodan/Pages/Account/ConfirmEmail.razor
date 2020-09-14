@@ -1,0 +1,42 @@
+﻿@page "/confirm-email/{userId}/{token}"
+
+@inject UserManager<IdentityUser> userManager
+@inject INotificationsService notifications
+@inject NavigationManager navigation
+
+@code
+{
+    [Parameter]
+    public string UserId { get; set; }
+    [Parameter]
+    public string Token { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            if (UserId == null || UserId == null)
+            {
+                notifications.Add("Odkaz je neplatný", EType.danger);
+                navigation.NavigateTo("/");
+            }
+
+            var user = await userManager.FindByIdAsync(UserId);
+            if (user == null)
+            {
+                notifications.Add($"Používateľa s ID sa nepodarilo načítať '{UserId}'", EType.danger);
+                navigation.NavigateTo("/");
+            }
+
+            Token = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(Token));
+            var result = await userManager.ConfirmEmailAsync(user, Token);
+
+            if (result.Succeeded)
+                notifications.Add("Ďakujeme za potvrdenie vášho e-mailu", EType.primary);
+            else
+                notifications.Add("Chyba pri potvrdzovaní vášho e-mailu", EType.danger);
+
+            navigation.NavigateTo("/");
+        }
+    }
+}

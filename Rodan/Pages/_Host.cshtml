@@ -6,31 +6,37 @@
 }
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rodan</title>
+
+    <title>OZ Rodan</title>
+    <meta name="description" content="Občianske združenie mladých ľudí, ktorým nie je ľahostajný postoj k prírode 💚">
+
+    @* facebook metas *@
+    <meta property="og:description" content="Občianske združenie mladých ľudí, ktorým nie je ľahostajný postoj k prírode 💚">
+    <meta property="og:title" content="OZ Rodan">
+    <meta property="og:type" content="website">
+    <meta property="og:image" typeof="image/" content="https://oz-rodan.sk/img/logo16x9.jpg">
+
     <base href="~/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link href="css/site.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.min.css" />
 </head>
-<body>
+<body class="container-xl p-0">
     <app>
         <component type="typeof(App)" render-mode="ServerPrerendered" />
     </app>
 
-    <div id="blazor-error-ui">
-        <environment include="Staging,Production">
-            An error has occurred. This application may no longer respond until reloaded.
-        </environment>
-        <environment include="Development">
-            An unhandled exception has occurred. See browser dev tools for details.
-        </environment>
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
+    <button id="btn-subs" class="rounded-circle p-1 bg-white" type="button" onclick="location.href='subscribe'">
+        <img src="/img/svg/bell.svg" width="48" alt="bell" />
+    </button>
 
     <script src="_framework/blazor.server.js"></script>
+    <script src="~/lib/jquery/jquery.slim.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,5 @@
+2020-09-14T17:07:41.0654776+02:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-09-14T17:07:41.0701543+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-09-14T17:07:41.0729454+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-09-14T17:07:41.0739060+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-09-14T17:07:41.0748965+02:00  [INF] Content root path: "C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan" (b5d60022)

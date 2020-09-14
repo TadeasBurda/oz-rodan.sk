@@ -1,0 +1,26 @@
+﻿@inject INotificationsService service
+
+@while (service.Notifications.Count > 0)
+{
+    var item = service.Notifications.Dequeue();
+
+    <div class="alert alert-@item.Type alert-dismissible fade show" role="alert">
+        @item.Message
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@code
+{
+    protected override void OnInitialized()
+    {
+        service.Refresh += StateHasChanged;
+    }
+
+    private void StateHasChanged(object sender, EventArgs e)
+    {
+        StateHasChanged();
+    }
+}

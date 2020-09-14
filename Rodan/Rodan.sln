@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rodan", "Rodan.csproj", "{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rodan", "Rodan.csproj", "{3ACDEE73-CD11-4C9E-ADB6-4294D5666DD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rodan.Business", "..\Rodan.Business\Rodan.Business.csproj", "{973E4E59-EAED-45AD-A067-0623E71A4C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rodan.Business", "..\Rodan.Business\Rodan.Business.csproj", "{973E4E59-EAED-45AD-A067-0623E71A4C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rodan.Data", "..\Rodan.Data\Rodan.Data.csproj", "{6CDFA056-110E-4CC2-B4DE-083B435B7485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rodan.Data", "..\Rodan.Data\Rodan.Data.csproj", "{6CDFA056-110E-4CC2-B4DE-083B435B7485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,68 @@
+﻿@page "/subscribe"
+
+@inject IAccountService account
+@inject INotificationsService notifications
+
+<section>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="/">
+                    <i class="fas fa-home"></i>&nbsp;Domov
+                </a>
+            </li>
+            <li class="breadcrumb-item active">
+                Odber
+            </li>
+        </ol>
+    </nav>
+
+    <section class="p-3">
+        <article>
+            <p>Chceš aby sme ta <strong>informovali</strong> ak sa na našom webe udeje niečo nové?</p>
+            <p>Chceš aby sme ťa <strong>pozívali</strong> na dobrovoľné brigády našich projektov?</p>
+            <p>Chceš aby sme ťa <strong>upozornili</strong> na dianie vo svete a na Slovensku, o ktorom si myslíme že by onom ľudia mali vedieť?</p>
+            <br />
+            <div class="text-center">
+                <h3>Tak potom nižšie zadaj svoj email a budeš od nás dostávať správy!</h3>
+            </div>
+            <br />
+            <p>Tvoj email z nikým <strong>nezdieľame</strong> a odber je možné kedykoľvek <strong>zrušiť.</strong></p>
+        </article>
+
+        <EditForm Model="@model" OnValidSubmit="@OnValidSubmitAsync">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <InputText class="form-control" @bind-Value="model.Email" placeholder="Vlož tvoj email"/>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                Odoslať
+            </button>
+        </EditForm>
+    </section>
+</section>
+
+@code
+{
+    private SubscribeViewModel model = new SubscribeViewModel();
+
+    private async Task OnValidSubmitAsync()
+    {
+        try
+        {
+            await account.RegisterAsync(model.Email);
+            notifications.Add("Skontroluj si svoju e-mailovú schránku 😉", EType.primary);
+        }
+        catch (Exception e)
+        {
+            notifications.Add(e.Message, EType.danger);
+        }
+        finally
+        {
+            model = new SubscribeViewModel();
+        }
+    }
+}

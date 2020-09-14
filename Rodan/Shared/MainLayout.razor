@@ -1,16 +1,75 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="sidebar">
-    <NavMenu />
-</div>
+<nav class="navbar navbar-light navbar-expand-md sticky-top bg-white shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand text-center" href="/">
+            <img class="border rounded-circle d-inline-block align-top" width="30" height="30" alt="OZ Rodan - logo" src="/favicon.ico" />
+            <strong>OZ Rodan</strong>
+        </a>
 
-<div class="main">
-    <div class="top-row px-4 auth">
-        <LoginDisplay />
-        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-    </div>
+        <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="content px-4">
-        @Body
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav text-center ml-auto">
+                <li role="presentation" class="nav-item">
+                    <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
+                        <i class="fas fa-home"></i>&nbsp;Domov
+                    </NavLink>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <NavLink class="nav-link" href="/activities">
+                        <i class="fas fa-hammer"></i>&nbsp;Aktivity
+                    </NavLink>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <NavLink class="nav-link" href="/articles">
+                        <i class="fas fa-newspaper"></i>&nbsp;Články
+                    </NavLink>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <NavLink class="nav-link" href="/projects">
+                        <i class="fas fa-wrench"></i>&nbsp;Projekty
+                    </NavLink>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <NavLink class="nav-link" href="/contacts">
+                        <i class="fas fa-mobile-alt"></i>&nbsp;Kontaky
+                    </NavLink>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <NavLink class="nav-link" href="/help">
+                        <i class="fas fa-hand-holding-medical"></i>&nbsp;Pomoc
+                    </NavLink>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+</nav>
+
+<main class="bg-light">
+    <ToastNotifications/>
+
+    @Body
+</main>
+
+<footer>
+    <div class="social">
+        <a href="https://www.facebook.com/rodanoz" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+    <ul class="list-inline">
+        <li class="list-inline-item">
+            <a href="/">Domov</a>
+        </li>
+        <li class="list-inline-item">
+            <a href="/contacts">Kontakty</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        oz-rodan.sk 2020 &copy; <a href="https://tadeasburda.sk">Tadeáš Burda</a>
+    </p>
+</footer>
