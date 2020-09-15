@@ -8,5 +8,4 @@ C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcore
 C:\Users\tadea\Source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\bin\Debug\netcoreapp3.1\Rodan.Data.runtimeconfig.json
 C:\Users\tadea\Source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\bin\Debug\netcoreapp3.1\Rodan.Data.runtimeconfig.dev.json
 C:\Users\tadea\Source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.genruntimeconfig.cache
-C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.csprojAssemblyReference.cache
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan.Data\obj\Debug\netcoreapp3.1\Rodan.Data.csproj.CoreCompileInputs.cache

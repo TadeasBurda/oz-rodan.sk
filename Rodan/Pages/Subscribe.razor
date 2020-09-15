@@ -56,7 +56,7 @@
         try
         {
             await account.RegisterAsync(model.Email);
-            notifications.Add("Skontroluj si svoju e-mailovú schránku 😉", EType.primary);
+            notifications.Add($"Na email {model.Email}, sme zaslaly overovaciu správu.", EType.primary);
         }
         catch (Exception e)
         {
