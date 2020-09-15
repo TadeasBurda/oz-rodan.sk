@@ -1,4 +1,4 @@
-﻿@page "/confirm-email/{userId}/{token}"
+﻿@page "/confirm-email/{UserId}/{Token}"
 
 @inject UserManager<IdentityUser> userManager
 @inject INotificationsService notifications
@@ -15,7 +15,7 @@
     {
         if (firstRender)
         {
-            if (UserId == null || UserId == null)
+            if (UserId == null || Token == null)
             {
                 notifications.Add("Odkaz je neplatný", EType.danger);
                 navigation.NavigateTo("/");
