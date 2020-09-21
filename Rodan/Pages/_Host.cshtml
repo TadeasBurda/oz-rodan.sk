@@ -34,9 +34,16 @@
         <component type="typeof(App)" render-mode="ServerPrerendered" />
     </app>
 
-    <button id="btn-subs" class="rounded-circle border border-dark p-1 bg-white" type="button" onclick="location.href='subscribe'">
-        <img src="/img/svg/bell.svg" width="48" alt="bell" />
-    </button>
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            Došlo k chybe. Táto aplikácia už nemusí reagovať, kým sa nenačíta znova.
+        </environment>
+        <environment include="Development">
+            Vyskytla sa nespracovaná výnimka. Podrobnosti nájdete v nástrojoch pre vývojárov prehliadača.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
 
     <script src="_framework/blazor.server.js"></script>
     <script src="~/lib/jquery/jquery.slim.min.js"></script>

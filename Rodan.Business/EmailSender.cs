@@ -8,20 +8,15 @@ namespace Rodan.Business
 {
     public class EmailSender : IEmailSender
     {
-		private readonly string name;
-		private readonly string adrress;
-		private readonly string smtp;
-		private readonly int port;
-		private readonly bool useSsl;
+		private const string name = "OZ Rodan";
+		private const string adrress = "postmaster@oz-rodan.sk";
+		private const string smtp = "smtp.forpsi.com";
+		private const int port = 587;
+		private const bool useSsl = false;
 		private readonly string password;
 
 		public EmailSender(IConfiguration configuration)
 		{
-			name = configuration["Email:Name"];
-			adrress = configuration["Email:Adrress"];
-			smtp = configuration["Email:Smtp"];
-			port = int.Parse(configuration["Email:Port"]);
-			useSsl = bool.Parse(configuration["Email:UseSSL"]);
 			password = configuration["Email:Password"];
 		}
 

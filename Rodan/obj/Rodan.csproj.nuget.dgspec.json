@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj": {}
+    "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj": {
+    "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj",
+        "projectUniqueName": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj",
         "projectName": "Rodan.Business",
-        "projectPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj",
+        "projectPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj",
         "packagesPath": "C:\\Users\\tadea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\obj\\",
+        "outputPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tadea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj": {
-                "projectPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj"
+              "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj": {
+                "projectPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj": {
+    "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj",
+        "projectUniqueName": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj",
         "projectName": "Rodan.Data",
-        "projectPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj",
+        "projectPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj",
         "packagesPath": "C:\\Users\\tadea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\obj\\",
+        "outputPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tadea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj": {
+    "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj",
+        "projectUniqueName": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj",
         "projectName": "Rodan",
-        "projectPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj",
+        "projectPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\Rodan.csproj",
         "packagesPath": "C:\\Users\\tadea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\obj\\",
+        "outputPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tadea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,8 +209,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj": {
-                "projectPath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj"
+              "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj": {
+                "projectPath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Business\\Rodan.Business.csproj"
               }
             }
           }

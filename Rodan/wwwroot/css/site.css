@@ -4,12 +4,6 @@
     }
 }
 
-#btn-subs {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-}
-
 @font-face {
     src: url(../Poppins-Regular.ttf);
     font-family: Poppins;
