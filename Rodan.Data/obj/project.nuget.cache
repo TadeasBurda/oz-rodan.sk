@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sp3e48d4TczORDGn4IBscvws3UOLMCl2wqE4mDc5NHEfnfD76L2+iZ/DeZylK2CO/M0N4+7ThayGkO+Cc6+ocg==",
+  "dgSpecHash": "Wx5k+5g4aRi81VG7dHXAcH3tUxf/afltbWA26vETvwbsx1V62fW/K3OP0YnZ+94hTPN0789Q7ENFlPpgkDSQZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tadea\\source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj",
+  "projectFilePath": "C:\\Users\\tadea\\Source\\Repos\\TadeasBurda\\oz-rodan.sk\\Rodan.Data\\Rodan.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tadea\\.nuget\\packages\\mailkit\\2.9.0\\mailkit.2.9.0.nupkg.sha512",
     "C:\\Users\\tadea\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",

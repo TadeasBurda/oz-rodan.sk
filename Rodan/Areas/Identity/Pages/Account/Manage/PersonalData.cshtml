@@ -5,22 +5,23 @@
     ViewData["ActivePage"] = ManageNavPages.PersonalData;
 }
 
-<h4>@ViewData["Title"]</h4>
-
-<div class="row">
-    <div class="col-md-6">
-        <p>Váš účet obsahuje osobné údaje, ktoré ste nám poskytli. Táto stránka vám umožňuje tieto údaje stiahnuť alebo odstrániť.</p>
-        <p>
-            <strong>Vymazaním týchto údajov natrvalo odstránite svoj účet a nie je možné ich obnoviť.</strong>
-        </p>
-        <form id="download-data" asp-page="DownloadPersonalData" method="post" class="form-group">
-            <button class="btn btn-primary" type="submit">Stiahnuť</button>
-        </form>
-        <p>
-            <a id="delete" asp-page="DeletePersonalData" class="btn btn-primary">Odstrániť</a>
-        </p>
+<section class="mt-5 mt-md-0">
+    <h4>@ViewData["Title"]</h4>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Váš účet obsahuje osobné údaje, ktoré ste nám poskytli. Táto stránka vám umožňuje tieto údaje stiahnuť alebo odstrániť.</p>
+            <p>
+                <strong>Vymazaním týchto údajov natrvalo odstránite svoj účet a nie je možné ich obnoviť.</strong>
+            </p>
+            <form id="download-data" asp-page="DownloadPersonalData" method="post" class="form-group">
+                <button class="btn btn-primary" type="submit">Stiahnuť</button>
+            </form>
+            <p>
+                <a id="delete" asp-page="DeletePersonalData" class="btn btn-primary">Odstrániť</a>
+            </p>
+        </div>
     </div>
-</div>
+</section>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
