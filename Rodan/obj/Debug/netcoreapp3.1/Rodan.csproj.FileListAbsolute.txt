@@ -176,7 +176,6 @@ C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\bin\Debug\netcoreapp3.
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Activities.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Articles.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contacts.razor.g.cs
-C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Help.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Projects.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AllArticles\RozhovorKadubek.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\bin\Debug\netcoreapp3.1\Serilog.dll
@@ -195,7 +194,6 @@ C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Pages\AllArticles\RozhovorKadubek.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Pages\Articles.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Pages\Contacts.razor.g.cs
-C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Pages\Help.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Pages\Projects.razor.g.cs
 C:\Users\tadea\source\Repos\TadeasBurda\oz-rodan.sk\Rodan\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs

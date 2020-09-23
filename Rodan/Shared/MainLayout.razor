@@ -1,6 +1,6 @@
 ﻿@inherits LayoutComponentBase
 
-<nav class="navbar navbar-light navbar-expand-lg sticky-top bg-white shadow">
+<nav class="navbar navbar-light navbar-expand-md sticky-top bg-white shadow">
     <div class="container-fluid">
         <a class="navbar-brand text-center" href="/">
             <img class="border rounded-circle d-inline-block align-top" width="30" height="30" alt="OZ Rodan - logo" src="/favicon.ico" />
@@ -13,24 +13,28 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navcol-1">
-            <ul class="nav navbar-nav mr-auto pl-3 pl-lg-0">
-                <li role="presentation" class="nav-item">
-                    <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Domov</NavLink>
+            <ul class="nav navbar-nav mr-auto pl-3 pl-md-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O nás
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <NavLink class="dropdown-item" href="activities" Match="NavLinkMatch.All">Naše aktivity</NavLink>
+                    </div>
                 </li>
-                <li role="presentation" class="nav-item">
-                    <NavLink class="nav-link" href="activities">Aktivity</NavLink>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dokumenty
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <NavLink class="dropdown-item" href="articles">Články</NavLink>
+                        <NavLink class="dropdown-item" href="projects">Projekty</NavLink>
+                    </div>
                 </li>
-                <li role="presentation" class="nav-item">
-                    <NavLink class="nav-link" href="articles">Články</NavLink>
-                </li>
-                <li role="presentation" class="nav-item">
-                    <NavLink class="nav-link" href="projects">Projekty</NavLink>
-                </li>
+
                 <li role="presentation" class="nav-item">
                     <NavLink class="nav-link" href="contacts">Kontaky</NavLink>
-                </li>
-                <li role="presentation" class="nav-item">
-                    <NavLink class="nav-link" href="help">Pomoc</NavLink>
                 </li>
             </ul>
 
