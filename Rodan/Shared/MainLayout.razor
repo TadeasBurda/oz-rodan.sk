@@ -74,9 +74,18 @@
         <li class="list-inline-item">
             <a href="contacts">Kontakty</a>
         </li>
-        <li class="list-inline-item">
-            <a href="Identity/Account/Login">Prihlásiť sa</a>
-        </li>
+        <AuthorizeView>
+            <Authorized>
+                <li class="list-inline-item">
+                    <a href="Identity/Account/Manage">Profil</a>
+                </li>
+            </Authorized>
+            <NotAuthorized>
+                <li class="list-inline-item">
+                    <a href="Identity/Account/Login">Prihlásiť sa</a>
+                </li>
+            </NotAuthorized>
+        </AuthorizeView>
     </ul>
     <p class="copyright">
         oz-rodan.sk 2020 &copy; <a href="https://tadeasburda.sk">Tadeáš Burda</a>

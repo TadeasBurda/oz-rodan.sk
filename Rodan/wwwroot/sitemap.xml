@@ -4,13 +4,7 @@
     <loc>https://www.oz-rodan.sk/</loc>
   </url>
   <url>
-    <loc>https://www.oz-rodan.sk/subscribe</loc>
-  </url>
-  <url>
     <loc>https://www.oz-rodan.sk/projects</loc>
-  </url>
-  <url>
-    <loc>https://www.oz-rodan.sk/help</loc>
   </url>
   <url>
     <loc>https://www.oz-rodan.sk/contacts</loc>
@@ -22,6 +16,9 @@
     <loc>https://www.oz-rodan.sk/activities</loc>
   </url>
   <url>
-    <loc>https://www.oz-rodan.sk/articles/rozhovor-Kadubek</loc>
+    <loc>https://www.oz-rodan.sk/Identity/Account/Login</loc>
+  </url>
+  <url>
+    <loc>https://www.oz-rodan.sk/Identity/Account/Register</loc>
   </url>
 </urlset>
